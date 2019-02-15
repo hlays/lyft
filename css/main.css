@@ -1,12 +1,29 @@
 body {
   margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* navbar */
+header{
+  top: 0;
+  left: 0;
+  margin-top: 0;
+  padding-top: 0;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 40px;
+}
 
 #logo {
   width: 60px;
   height: auto;
+}
+
+#navbar {
+  display: flex;
+  justify-content: flex-end;
 }
 
 #navbar li {
@@ -33,8 +50,7 @@ li a {
 
 /* sections */
 #drive {
-  background-image: url(assets/images/hero.gif);
-  background-attachment: fixed;
+  background: url("assets/images/hero.gif") no-repeat fixed ;
   background-position: center;
   background-size: cover;
 }
@@ -45,8 +61,35 @@ li a {
 	padding: 40px 60px;
 }
 
+.text-exp {
+  width: 200px;
+  padding: 20px;
+}
+
+.ride {
+  display: block;
+}
+
+.ride-text {
+  padding: 30px;
+  margin: 30px;
+}
+
 footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  background-color: #333448;
+}
+
+footer ul {
+  list-style: none;
+}
+
+/* video */
+.video {
+  width: 60%;
+
+}
+
+.phone {
+  height: 400px;
+  width: auto; 
 }
