@@ -1,19 +1,21 @@
 body {
+  color: #362080;
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
 }
 
 /* navbar */
-header{
+header {
   top: 0;
   left: 0;
   margin-top: 0;
   padding-top: 0;
   position: fixed;
-  display: flex;
   width: 100%;
-  height: 40px;
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 #logo {
@@ -21,9 +23,10 @@ header{
   height: auto;
 }
 
-#navbar {
+#navbar ul {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
+  background-color: #1E1436;
 }
 
 #navbar li {
@@ -48,21 +51,49 @@ li a {
 
 /* sections */
 #drive {
-  background: url("assets/images/hero.gif") no-repeat fixed ;
+  background: url(https://github.com/hlays/lyft/blob/master/assets/images/hero.gif?raw=true) no-repeat;
   background-position: center;
   background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#drive h1 {
+  font-size: 36px;
+}
+
+.box {
+  width: 500px;
+  height: 400px;
+  padding: 20px;
+  background-color: #FFFFFF;
+}
+
+.sign-up {
+  font-size: 18px;
+}
+
+#drive a {
+  font-size: 12px;
+}
+
+label {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #362080;
+  font-size: 18px;
+  margin-top: 30px;
+  width: 350px;
 }
 
 #ride {
   color: aliceblue;
   background-image: linear-gradient(#71268B, #351F6A);
   padding: 50px;
-}
-
-.box {
-  height: 100vh;
-  box-sizing: border-box;
-	padding: 40px 60px;
 }
 
 .text-exp-left {
@@ -82,7 +113,7 @@ li a {
   color: aliceblue;
   background-color: #333448;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 #links ul {
@@ -112,6 +143,17 @@ li a {
   width: auto; 
 }
 
+/* buttons */
+.pink-btn {
+  color: aliceblue;
+  background-color: #FF00BE;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 20px 20px 30px 0;
+  font-size: 18px;
+}
+
 /* footer */
 footer {
   color: aliceblue;
@@ -128,7 +170,7 @@ footer p {
 .icons {
   display: flex;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
 }
 
 .web-icon-rounded {
@@ -136,16 +178,24 @@ footer p {
   padding: 10px;
   border: 2px solid #FFFFFF;
   border-radius: 50%;
-  height: 25px;
-  width: 25px;
-  font-size: 22px;
+  height: 22px;
+  width: 22px;
+  font-size: 20px;
   text-align: center;
 }
 
 .web-icon {
-  font-size: 49px;
+  font-size: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 hr {
-  width: 80%;
+  width: 90%;
+}
+
+.copyright {
+  font-size: 12px;
+  margin-top: 30px;
+  padding-bottom: 30px;
 }
