@@ -8,6 +8,6 @@ O objetivo é replicar o site do **Lyft** e esse deverá ser o resultado:
 
 ## Resultado
 
-O resultado pode ser conferido neste [link](https://hlays.github.io/lyft/).
+O resultado pode ser conferido neste [link](https://layshidani.github.io/lyft/).
 
 ![Lyft réplica](assets/images/resultado-lyft.png)
